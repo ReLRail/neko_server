@@ -91,17 +91,13 @@ function AppComponent_div_93_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 54);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 55);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 56);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "img", 57);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_93_Template_img_click_13_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.isDogFun(true); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "img", 56);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_93_Template_img_click_10_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.isDogFun(true); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 58);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "img", 57);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_93_Template_img_click_15_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.isDogFun(false); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "img", 56);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_93_Template_img_click_12_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.isDogFun(false); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -113,43 +109,41 @@ function AppComponent_div_93_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r0.targetImage, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("AI: I am ", ctx_r0.trainResult, "% sure this is the dog.");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r0.yesImage, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r0.noImage, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
 function AppComponent_div_96_Template(rf, ctx) { if (rf & 1) {
     const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 59);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 60);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 59);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 52);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 62);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 62);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 64);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "img", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "img", 64);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_96_Template_img_click_10_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.continueLoop(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 66);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "img", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "img", 64);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_96_Template_img_click_12_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.stopLoop(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 67);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "img", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 66);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "img", 64);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_96_Template_img_click_14_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6); const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r8.trainButton(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 68);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "img", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 67);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "img", 64);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_div_96_Template_img_click_16_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r9.finishTest(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -365,7 +359,7 @@ class AppComponent {
     modalShow() {
         document.getElementById("myModal").style.display = "block";
         setTimeout(() => { this.reset(); }, this.waitTime);
-        setTimeout(() => { this.typing("modalWords", "AI learns from data is like you learn from experiences. You are training AI with each click, the more data you provide AI, the more AI learns."); }, this.waitTime);
+        setTimeout(() => { this.typing("modalWords", "AI learns from data is like you learn from experiences. You are training AI with each click, the more data you provide AI, the more AI learns. Once you think it is enough you can test AI's ablity by test AI."); }, this.waitTime);
     }
     next() {
         document.getElementById("myModal").style.display = "none";
@@ -459,7 +453,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 97, vars: 12, consts: [["id", "background"], ["id", "girlDog", 2, "display", "none"], ["alt", "image", 2, "width", "241px", "height", "353px", 3, "src"], ["id", "robot1", 2, "display", "none"], ["alt", "image", 2, "width", "278px", "height", "305px", 3, "src"], ["id", "grass", 2, "display", "none"], ["alt", "image", 2, "width", "300px", "height", "160px", 3, "src"], ["id", "left", 2, "display", "none"], ["alt", "image", 2, "width", "165px", "height", "139px", 3, "src"], ["id", "typing1"], ["id", "words"], ["id", "right", 2, "display", "none"], ["id", "typing2"], ["id", "words2"], ["id", "explainBar", 2, "display", "none"], ["alt", "image", 2, "width", "855px", "height", "135px", 3, "src"], ["id", "explainWords"], ["id", "explain"], ["id", "myModal0", 1, "modal"], [1, "modal-content"], [1, "close", 3, "click"], ["id", "modalWords0"], [1, "next", 3, "click"], ["id", "myModal", 1, "modal"], ["id", "modalWords"], ["id", "modal2", 1, "modal"], ["id", "modalContent2", 1, "modal-content"], ["id", "modalWords2"], ["id", "modal3", 1, "modal"], ["id", "modalContent3", 1, "modal-content"], ["id", "modalWords3"], ["id", "modal32", 1, "modal"], ["id", "modalContent32", 1, "modal-content"], ["id", "modalWords32"], ["id", "modal4", 1, "modal"], ["id", "modalContent4", 1, "modal-content"], ["id", "modalWords4"], ["id", "littlerobot", 2, "display", "none"], ["id", "robot", "alt", "image", 2, "width", "297px", "height", "280px", 3, "src"], [1, "modelButtons"], ["id", "trainButton", 2, "display", "none"], ["alt", "image", 2, "width", "167px", "height", "81px", 3, "src", "click"], ["id", "testButton", 2, "display", "none"], ["id", "bubble", 2, "display", "none"], ["alt", "image", 2, "width", "556px", "height", "431px", 3, "src"], ["class", "training", 4, "ngIf"], ["hidden", "", "id", "test", 3, "click"], ["class", "showResult", 4, "ngIf"], [1, "training"], ["id", "inputbox", 2, "display", "none"], [1, "words"], [1, "dog"], ["alt", "image", 3, "src"], [1, "target"], [1, "buttons"], [1, "trainMsg"], [1, "yesButton"], ["alt", "image", 2, "width", "127px", "height", "70px", 3, "src", "click"], [1, "noButton"], [1, "showResult"], ["id", "outputbox", 2, "display", "none"], [1, "testmsg"], ["id", "accuracybox", 2, "display", "none"], [1, "accuracy"], [1, "continueTestButton"], ["alt", "image", 2, "width", "206px", "height", "81px", 3, "src", "click"], [1, "stopButton"], [1, "continueButton"], [1, "finishButton"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 97, vars: 12, consts: [["id", "background"], ["id", "girlDog", 2, "display", "none"], ["alt", "image", 2, "width", "241px", "height", "353px", 3, "src"], ["id", "robot1", 2, "display", "none"], ["alt", "image", 2, "width", "278px", "height", "305px", 3, "src"], ["id", "grass", 2, "display", "none"], ["alt", "image", 2, "width", "300px", "height", "160px", 3, "src"], ["id", "left", 2, "display", "none"], ["alt", "image", 2, "width", "165px", "height", "139px", 3, "src"], ["id", "typing1"], ["id", "words"], ["id", "right", 2, "display", "none"], ["id", "typing2"], ["id", "words2"], ["id", "explainBar", 2, "display", "none"], ["alt", "image", 2, "width", "855px", "height", "135px", 3, "src"], ["id", "explainWords"], ["id", "explain"], ["id", "myModal0", 1, "modal"], [1, "modal-content"], [1, "close", 3, "click"], ["id", "modalWords0"], [1, "next", 3, "click"], ["id", "myModal", 1, "modal"], ["id", "modalWords"], ["id", "modal2", 1, "modal"], ["id", "modalContent2", 1, "modal-content"], ["id", "modalWords2"], ["id", "modal3", 1, "modal"], ["id", "modalContent3", 1, "modal-content"], ["id", "modalWords3"], ["id", "modal32", 1, "modal"], ["id", "modalContent32", 1, "modal-content"], ["id", "modalWords32"], ["id", "modal4", 1, "modal"], ["id", "modalContent4", 1, "modal-content"], ["id", "modalWords4"], ["id", "littlerobot", 2, "display", "none"], ["id", "robot", "alt", "image", 2, "width", "297px", "height", "280px", 3, "src"], [1, "modelButtons"], ["id", "trainButton", 2, "display", "none"], ["alt", "image", 2, "width", "167px", "height", "81px", 3, "src", "click"], ["id", "testButton", 2, "display", "none"], ["id", "bubble", 2, "display", "none"], ["alt", "image", 2, "width", "556px", "height", "431px", 3, "src"], ["class", "training", 4, "ngIf"], ["hidden", "", "id", "test", 3, "click"], ["class", "showResult", 4, "ngIf"], [1, "training"], ["id", "inputbox", 2, "display", "none"], [1, "words"], [1, "dog"], ["alt", "image", 3, "src"], [1, "target"], [1, "buttons"], [1, "yesButton"], ["alt", "image", 2, "width", "127px", "height", "70px", 3, "src", "click"], [1, "noButton"], [1, "showResult"], ["id", "outputbox", 2, "display", "none"], [1, "testmsg"], ["id", "accuracybox", 2, "display", "none"], [1, "accuracy"], [1, "continueTestButton"], ["alt", "image", 2, "width", "206px", "height", "81px", 3, "src", "click"], [1, "stopButton"], [1, "continueButton"], [1, "finishButton"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "head");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "title");
@@ -609,7 +603,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 43);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](92, "img", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](93, AppComponent_div_93_Template, 16, 5, "div", 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](93, AppComponent_div_93_Template, 13, 4, "div", 45);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "button", 46);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_94_listener() { return ctx.testAi(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "Test");
