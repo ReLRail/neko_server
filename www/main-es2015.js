@@ -81,7 +81,7 @@ function AppComponent_div_93_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 49);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 50);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Is this the dog?");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Is this Pink?");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 52);
@@ -159,9 +159,9 @@ function AppComponent_div_96_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r1.dogImageTest, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("AI said it is ", ctx_r1.testResult, " the dog.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("AI said it is ", ctx_r1.testResult, " Pink.");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Accuracy is ", ctx_r1.testPercent, " %.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Output is ", ctx_r1.testPercent, " %.");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r1.continueTestImage, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
@@ -228,7 +228,7 @@ class AppComponent {
         this.targetLength = 0;
         this.isTraining = true;
         this.isTesting = false;
-        this.mind = new node_mind__WEBPACK_IMPORTED_MODULE_1___default.a({ activator: 'sigmoid', learningRate: 0.1, iterations: 40 });
+        this.mind = new node_mind__WEBPACK_IMPORTED_MODULE_1___default.a({ activator: 'relu', learningRate: 0.1, iterations: 40 });
     }
     ngOnInit() {
         // tslint:disable-next-line: indent
@@ -249,7 +249,7 @@ class AppComponent {
             case 2:
                 this.b = this.targetLength;
                 setTimeout(() => { this.reset(); }, this.waitTime);
-                setTimeout(() => { this.typing("words2", "No problem."); }, this.waitTime);
+                setTimeout(() => { this.typing("words2", "No problem, but teach me first."); }, this.waitTime);
                 break;
             case 3:
                 this.b = this.targetLength;
@@ -333,7 +333,8 @@ class AppComponent {
             let percent = this.mind.predict([this.testIndex / this.array.length, (this.array[this.testIndex].isDog ? 1 : 0)]) * 100;
             // let percent = this.correct / this.total *100 * (this.total/this.array.length)
             this.testResult = (percent >= 50 ? '' : 'NOT');
-            this.testPercent = Math.pow(Math.pow((percent - 50), 2), 0.25) * 100 / 7;
+            this.testPercent = percent;
+            //this.testPercent = Math.pow(Math.pow((percent-50),2),0.25)*100/7
         }
         else {
             this.testResult = '';
@@ -360,11 +361,6 @@ class AppComponent {
         this.randomDog();
         this.littlerobotImage = this.robotImage1;
         this.trainResult = (this.mind.predict([this.index / this.array.length, (this.array[this.index].isDog ? 1 : 0)]) * 100).toString();
-    }
-    modalShow0() {
-        document.getElementById("myModal0").style.display = "block";
-        setTimeout(() => { this.reset(); }, this.waitTime);
-        setTimeout(() => { this.typing("modalWords0", "AI made a prediction, help the AI to be better at predicting by finding the difference between the answer and AI's prediction."); }, this.waitTime);
     }
     modalShow() {
         document.getElementById("myModal").style.display = "block";

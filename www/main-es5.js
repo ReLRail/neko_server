@@ -170,7 +170,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 50);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Is this the dog?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Is this Pink?");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -362,11 +362,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("AI said it is ", ctx_r1.testResult, " the dog.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("AI said it is ", ctx_r1.testResult, " Pink.");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Accuracy is ", ctx_r1.testPercent, " %.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Output is ", ctx_r1.testPercent, " %.");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
@@ -671,7 +671,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.isTraining = true;
         this.isTesting = false;
         this.mind = new node_mind__WEBPACK_IMPORTED_MODULE_1___default.a({
-          activator: 'sigmoid',
+          activator: 'relu',
           learningRate: 0.1,
           iterations: 40
         });
@@ -709,7 +709,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 _this.reset();
               }, this.waitTime);
               setTimeout(function () {
-                _this.typing("words2", "No problem.");
+                _this.typing("words2", "No problem, but teach me first.");
               }, this.waitTime);
               break;
 
@@ -817,7 +817,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             var percent = this.mind.predict([this.testIndex / this.array.length, this.array[this.testIndex].isDog ? 1 : 0]) * 100; // let percent = this.correct / this.total *100 * (this.total/this.array.length)
 
             this.testResult = percent >= 50 ? '' : 'NOT';
-            this.testPercent = Math.pow(Math.pow(percent - 50, 2), 0.25) * 100 / 7;
+            this.testPercent = percent; //this.testPercent = Math.pow(Math.pow((percent-50),2),0.25)*100/7
           } else {
             this.testResult = '';
             this.testPercent = 0;
@@ -854,73 +854,60 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.trainResult = (this.mind.predict([this.index / this.array.length, this.array[this.index].isDog ? 1 : 0]) * 100).toString();
         }
       }, {
-        key: "modalShow0",
-        value: function modalShow0() {
+        key: "modalShow",
+        value: function modalShow() {
           var _this2 = this;
 
-          document.getElementById("myModal0").style.display = "block";
+          document.getElementById("myModal").style.display = "block";
           setTimeout(function () {
             _this2.reset();
           }, this.waitTime);
           setTimeout(function () {
-            _this2.typing("modalWords0", "AI made a prediction, help the AI to be better at predicting by finding the difference between the answer and AI's prediction.");
-          }, this.waitTime);
-        }
-      }, {
-        key: "modalShow",
-        value: function modalShow() {
-          var _this3 = this;
-
-          document.getElementById("myModal").style.display = "block";
-          setTimeout(function () {
-            _this3.reset();
-          }, this.waitTime);
-          setTimeout(function () {
-            _this3.typing("modalWords", "AI learns from data is like you learn from experiences. You are training AI with each click, the more data you provide AI, the more AI learns.");
+            _this2.typing("modalWords", "AI learns from data is like you learn from experiences. You are training AI with each click, the more data you provide AI, the more AI learns.");
           }, this.waitTime);
         }
       }, {
         key: "next",
         value: function next() {
-          var _this4 = this;
+          var _this3 = this;
 
           document.getElementById("myModal").style.display = "none";
           document.getElementById("modal2").style.display = "block";
           setTimeout(function () {
-            _this4.reset();
+            _this3.reset();
           }, this.waitTime);
           setTimeout(function () {
-            _this4.typing("modalWords2", 'These are always called “inputs”.');
+            _this3.typing("modalWords2", 'These are always called “inputs”.');
           }, this.waitTime);
           document.getElementById("inputbox").style.display = "inline-block";
         }
       }, {
         key: "modalShow2",
         value: function modalShow2() {
-          var _this5 = this;
+          var _this4 = this;
 
           document.getElementById("modal3").style.display = "block";
           setTimeout(function () {
-            _this5.reset();
+            _this4.reset();
           }, this.waitTime);
           setTimeout(function () {
-            _this5.typing("modalWords3", 'These are always called “outputs”.');
+            _this4.typing("modalWords3", 'These are always called “outputs”.');
           }, this.waitTime);
           document.getElementById("outputbox").style.display = "inline-block";
         }
       }, {
         key: "next2",
         value: function next2() {
-          var _this6 = this;
+          var _this5 = this;
 
           document.getElementById("outputbox").style.display = "none";
           document.getElementById("modal3").style.display = "none";
           document.getElementById("modal32").style.display = "block";
           setTimeout(function () {
-            _this6.reset();
+            _this5.reset();
           }, this.waitTime);
           setTimeout(function () {
-            _this6.typing("modalWords32", 'These are the confidence ratings of the AI algorithm. It ranges from 0%-100%. It tells you how accurate the AI is when identifying Pink from other dogs.');
+            _this5.typing("modalWords32", 'These are the confidence ratings of the AI algorithm. It ranges from 0%-100%. It tells you how accurate the AI is when identifying Pink from other dogs.');
           }, this.waitTime);
           document.getElementById("accuracybox").style.display = "inline-block";
         }
@@ -947,14 +934,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "finishTest",
         value: function finishTest() {
-          var _this7 = this;
+          var _this6 = this;
 
           document.getElementById("modal4").style.display = "block";
           setTimeout(function () {
-            _this7.reset();
+            _this6.reset();
           }, this.waitTime);
           setTimeout(function () {
-            _this7.typing("modalWords4", 'You just trained AI(Artificial Intelligence) to identify Pink from other dogs using supervised learning. Supervised learning is one kind of machine learning. Machine learning is how computers recognize patterns and make decisions without being explicitly programmed. Supervised learning is a type of machine learning where algorithms learn from labeled data. AI did not know if a dog is “Pink” or “Not Pink”. It can process images and identify patterns to help it decide.');
+            _this6.typing("modalWords4", 'You just trained AI(Artificial Intelligence) to identify Pink from other dogs using supervised learning. Supervised learning is one kind of machine learning. Machine learning is how computers recognize patterns and make decisions without being explicitly programmed. Supervised learning is a type of machine learning where algorithms learn from labeled data. AI did not know if a dog is “Pink” or “Not Pink”. It can process images and identify patterns to help it decide.');
           }, this.waitTime);
           this.stopLoop();
         }
@@ -994,7 +981,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "typing",
         value: function typing(typingID, strings) {
-          var _this8 = this;
+          var _this7 = this;
 
           document.getElementById(typingID).innerHTML = strings.substring(this.c, this.b);
           this.targetLength = strings.length;
@@ -1007,7 +994,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           if (this.isTyping) {
             setTimeout(function () {
-              _this8.typing(typingID, strings);
+              _this7.typing(typingID, strings);
             }, this.typingSpeed);
           }
         }
